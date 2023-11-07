@@ -1,6 +1,6 @@
 <div class="card-pricing__container">
 	<div class="card-pricing__title">
-		<h3>Play it Now!</h3>
+		<h3>{{device}}</h3>
 	</div>
 	<div class="card-pricing__value">
 		<div class="card-pricing__value__console">
@@ -8,7 +8,7 @@
 			<p>{{gameType}}</p>
 		</div>
 		<div class="card-pricing__value__money">
-			<p class="game-price">{{gamePrice}}</p>
+			<p class="game-price">{{gamePrice | currency}}</p>
 		</div>
 	</div>
 </div>
